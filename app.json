@@ -1,17 +1,23 @@
 {
   "name": "finance",
-  "displayName": "Cardz",
+  "displayName": "Finance",
   "expo": {
     "name": "finance",
-    "slug": "expo-template-bare",
+    "slug": "finance-card",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "ios": {
+      "bundleIdentifier": "com.SMD.finance",
+      "buildNumber": "1.0.0"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "37.0.0",
+    "description": ""
   }
 }
